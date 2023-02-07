@@ -1,0 +1,62 @@
+/*main*/
+
+.content {
+    display: flex;
+    flex-direction: column;
+    width: 1202px;
+    flex-grow: 1;
+    margin: 0 auto;
+    font-family: 'Roboto';
+    font-style: normal;
+}
+
+.students-potok {
+    font-weight: 700;
+    font-size: 31px;
+}
+
+.colour {
+    color: rgb(218, 218, 52);
+}
+
+.students-list {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    list-style: none;
+    
+}
+
+.students-photo {
+
+    width: 200px;
+    height: 270px;
+    background: #86C6F4;
+    position: relative;
+}
+.picture {
+    width: 200px;
+    height: 270px;
+}
+
+.famaly {
+    padding-top: 15px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    align-items: center;
+    text-align: center;
+    color: black;
+}
+.bage {
+    position: absolute;
+    max-width: 94px;
+    height: 24px;
+    left: 116px;
+    top: -16px;
+    background: #3AA828;
+    border-radius: 20px;
+    padding: 6px;
+    font-weight: 400px;
+    font-size: 18px;
+    line-height: 22px;
+}
